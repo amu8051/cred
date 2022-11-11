@@ -1,0 +1,17 @@
+.button-container{
+  cursor: pointer;
+  border-radius: 40px ;
+  background-color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 65px;
+  width: max-content;
+  color: black;
+}
+
+@media all and (max-width: 767px) {
+  .button-container {
+    font-size: 18px;
+    padding: 16px 24px;
+  }
+}
